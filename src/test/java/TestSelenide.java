@@ -45,8 +45,6 @@ public class TestSelenide {
                         "}"));
 
 
-        sleep(5000);
-
 
 
 
