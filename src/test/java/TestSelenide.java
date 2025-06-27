@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class TestSelenide {
 
     @BeforeAll
-    static void beforeAll() {
+    static void configuration() {
         Configuration.browserSize = "1920x1080";
     }
 
@@ -43,14 +43,6 @@ public class TestSelenide {
                         "    $(\"#second\").should(visible).click();\n" +
                         "  }\n" +
                         "}"));
-
-
-
-
-
-
-
-
     }
 }
 
